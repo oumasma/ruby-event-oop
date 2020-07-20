@@ -10,3 +10,7 @@ require_relative 'lib/event'
 
 # Maintenant c'est open bar pour tester ton application. Tous les fichiers importants sont chargés
 # Tu peux faire User.new, Event.new, binding.pry, User.all, etc.
+puts julie = User.new("julie@julie.com", 35)
+puts jean = User.new("jean@jean.com", 23)
+puts julie.email
+puts Event.new("2010-10-31 12:00, 30, entre amis, julie@email.com")
